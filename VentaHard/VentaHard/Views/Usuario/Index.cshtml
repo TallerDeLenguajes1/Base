@@ -1,0 +1,31 @@
+﻿
+@model List<VentaHard.ViewModels.UsuarioViewModel>
+
+<h1 class="text-center">Administrar Usuarios</h1>
+
+<h2> Crear Usuario</h2>
+<a class="btn btn-group-lg btn-success" asp-controller="Usuario" asp-action="Alta">Crear Usuario</a>
+<br /><br /><br />
+<h2> Listado de Usuarios</h2>
+<table class="table table-dark">
+    <tr>
+        <th hidden>IdUsuario</th>
+        <th>NombreUsuario</th>
+        <th>Telefono</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var UsuarioX in Model)
+    {
+<tr>
+    <td hidden>@UsuarioX.IdUsuario</td>
+    <td>@UsuarioX.NombreUsuario</td>
+    <td>@UsuarioX.Telefono</td>
+    <td><a class="btn btn-success" asp-controller="Usuario" asp-action="Editar" name="IdUsuario" asp-route-id="@UsuarioX.IdUsuario">Editar</a></td>
+    <td><a class="btn btn-danger" asp-controller="Usuario" asp-action="Eliminar" asp-route-id="@UsuarioX.IdUsuario">Eliminar</a></td>
+</tr>
+
+    }
+
+</table>

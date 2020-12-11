@@ -1,0 +1,17 @@
+﻿@model VentaHard.ViewModels.UsuarioViewModel
+
+
+<form asp-action="ModificarUsuario" method="post" class="was-validated">
+    <input hidden type="text"  asp-for="IdUsuario" />
+    <div class="form-group">
+        <label asp-for="NombreUsuario">Nombre:</label>
+        <input type="text" asp-for="NombreUsuario" />
+        <span asp-validation-for="NombreUsuario"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefono">Telefono:</label>
+        <input type="text" asp-for="Telefono" />
+        <span asp-validation-for="Telefono"></span>
+    </div>    
+    <input type="submit" class="btn btn-primary" />
+</form>
