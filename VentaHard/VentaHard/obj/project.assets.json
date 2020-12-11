@@ -1001,11 +1001,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repositorios Git\\facultad\\Parcial\\VentaHard\\VentaHard\\VentaHard.csproj",
+      "projectUniqueName": "C:\\Repositorios Git\\facultad\\Parcial\\ParcialBase\\VentaHard\\VentaHard\\VentaHard.csproj",
       "projectName": "VentaHard",
-      "projectPath": "C:\\Repositorios Git\\facultad\\Parcial\\VentaHard\\VentaHard\\VentaHard.csproj",
+      "projectPath": "C:\\Repositorios Git\\facultad\\Parcial\\ParcialBase\\VentaHard\\VentaHard\\VentaHard.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Repositorios Git\\facultad\\Parcial\\VentaHard\\VentaHard\\obj\\",
+      "outputPath": "C:\\Repositorios Git\\facultad\\Parcial\\ParcialBase\\VentaHard\\VentaHard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b/iS325gShpCnRr7Xm/npPBod9Xj7DxShm/nZIBhhiyjInk1YTC0WYBQmJ4w2yBYk4iQLlx0p0scomCt7e589A==",
+  "dgSpecHash": "raM6z1G4UklI3B89QpOzg+ZgtgWjjdnVAdbQRCe1EsiT5eL7dmkjqZ9l0wIyc1am3D6Kdk/PZTfh6tcrhCkS7A==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios Git\\facultad\\Parcial\\VentaHard\\VentaHard\\VentaHard.csproj",
+  "projectFilePath": "C:\\Repositorios Git\\facultad\\Parcial\\ParcialBase\\VentaHard\\VentaHard\\VentaHard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
